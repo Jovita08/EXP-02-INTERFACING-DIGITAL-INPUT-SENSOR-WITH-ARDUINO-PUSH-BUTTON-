@@ -97,6 +97,7 @@ void loop()
 
 
 Output of the simulation :
+
 ![output](code.png)
 
 RESULT
