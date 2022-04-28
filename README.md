@@ -53,7 +53,7 @@ PROCEDURE
 CIRCUIT DIAGRAM 
 
 
-
+![output](cir.png)
 
 
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
@@ -67,7 +67,28 @@ FIGURE -03
 
 
 PROGRAM 
- 
+```
+NAME: A.Virgil Jovita
+REG NO:212221240062
+
+int buttonState = 0;
+void setup()
+{
+  pinMode(2, OUTPUT);
+  pinMode(13, INPUT);
+}
+
+void loop()
+{
+ buttonState = digitalRead(13);
+  if (buttonState == HIGH) {
+    digitalWrite(2, HIGH);
+  } else  {
+    digitalWrite(2, LOW);
+  }delay(10);
+}
+
+ ```
  
  
  
@@ -76,6 +97,10 @@ PROGRAM
 
 
 Output of the simulation :
+![output](code.png)
 
-[My image](username.github.com/repository/img/image.jpg)
+RESULT
+
+Thus the given interfacing a digital input and blink LED is sucessfully done through tinker CAD.
+
 
